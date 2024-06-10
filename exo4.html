@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo 4</title>
+</head>
+<body>
+    <p>Écrire un programme qui demande à l'utilisateur de saisir un nombre et vérifie s'il est divisible par 3 ou non.
+    </p>
+    <script>
+
+
+let nombre = parseInt(prompt("Veuillez saisir un nombre :"));
+
+
+if (!isNaN(nombre)) {
+    
+    if (nombre % 3 === 0) {
+        console.log(`${nombre} est divisible par 3.`);
+    } else {
+        console.log(`${nombre} n'est pas divisible par 3.`);
+    }
+} else {
+    
+    console.log("Veuillez saisir un nombre valide.");
+}
+    </script>
+</body>
+</html>
